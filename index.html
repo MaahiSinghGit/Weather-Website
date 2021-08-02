@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Live Weather Application</title>
+    <style>
+        div.page {
+            text-align: center;
+            align-items: center;
+            background-image: url("https://source.unsplash.com/1600x900/?weather,summer,rain,winter");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+        }
+
+        #form {
+            align-items: center;
+            justify-items: center;
+            justify-content: center;
+            height:500px;
+            width: 100%;
+        }
+
+        .header {
+            height: 25%;
+            width: 100%;
+        }
+
+        nav.navbar {
+            background-color: coral;
+            border: .5px solid black;
+        }
+
+        .icon {
+            color: black;
+            border: .5px solid black;
+            border-radius: 3px;
+            margin: 3px;
+            padding: 5px;
+        }
+
+        .btn {
+            margin: 10px;
+            background-color:cornflowerblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <nav class="navbar navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <p class="icon">Weather App</p>
+                </a>
+            </div>
+        </nav>
+        <h1>Enter the city name </h1>
+        <form action="/" method="post" id="form">
+            <label for="cityname">City Name:</label>
+            <input type="text" name="cityname" value="" placeholder="enter city name">
+            <br>
+            <button type="submit" class="btn btn-outline-success">Check Weather</button>
+        </form>
+
+
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>
