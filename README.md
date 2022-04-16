@@ -2,7 +2,6 @@
 
 ## Overview of Weather App...
 #
-###Link: https://maahisinghgit.github.io/Weather-Website/
 
 It's a  Simple Weather Application made by using HTML, CSS &amp; JavaScript.
 
